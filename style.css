@@ -1,0 +1,600 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+html, body {
+height: 100%;
+font-size: 100%;
+font-family: sans-serif;
+background: #2c5aa0;
+	background: linear-gradient(top, #070f63, #2c5aa0 );
+	background: -moz-linear-gradient(top, #070f63, #2c5aa0 );
+	background: -webkit-linear-gradient(top, #070f63, #2c5aa0 ); 
+}
+
+a, p a {
+text-decoration: none;
+}
+
+p {
+font-size: 0.9em;
+line-height: 1.5em;
+margin-bottom: 0.8em;
+}
+
+li {
+list-style: none;
+font-size: 1em;
+line-height: 1.3em;
+margin-bottom: 0.5em;
+}
+
+h1 {
+font-size: 1.5em; 
+margin-bottom: 0.8em;
+}
+
+h2 {
+font-size: 1.1em;
+margin-bottom: 0.5em;
+}
+
+h3 {
+font-size: 1.002em;
+margin-bottom: 0.5em;
+}
+
+blockquote {
+font-size: 85%;
+line-height: 1.5em;
+margin: 30px;
+font-style: italic;
+}
+
+.clear {clear: both;}
+
+
+div.hr {
+background: #fff  no-repeat scroll center;
+border: 0px;
+margin: 30px;
+width: 92%;
+height:3px;
+opacity: 0.4;
+}
+
+div.hr hr {
+display: none;
+}
+
+div#pagewrap {
+border-left: 5px solid #b5b2a6;
+border-right: 5px solid #b5b2a6;
+min-height:100%;
+width: 1020px;
+position: relative;
+margin: 0 auto;
+background: url(image/header.png) no-repeat, url(image/bg.png), white;
+}
+
+div#newsblog {
+font-family: 'Marcellus SC', serif;
+width:740px;
+height: 39px;
+position: relative;
+top: 8px;
+left: 280px;
+text-align: right;
+}
+
+div#newsblog li{
+padding: 10px;
+font-weight: bold;
+color: #58554a;}
+
+div#newsblog li a{
+padding: 10px;
+font-weight: bold;
+font-size: 1.0em;
+color: #9a9583;
+}
+
+div#newsblog li{
+display: inline;}
+
+div#newsblog li a:hover, ul#newsblog li a:active {
+color: white;
+}
+
+div#nav {
+font-family: 'Marcellus SC', serif;
+height: 55px;
+width: 750px;
+margin-left: 10px;
+position: relative;
+left: 260px;
+}
+
+
+div#nav li a{
+font-weight: bold;
+color: #9a9583;
+}
+
+div#nav li{
+float: left;
+display: block;
+border-right: 2px dotted #9a9583;
+padding: 10px 25px 10px 25px;
+font-size: 1.0em;
+margin-top: 215px;
+font-weight: bold;
+color: #58554a;
+}
+
+div#nav li a:hover, div#nav li a:active  {
+color: #58554a;
+}
+
+div#main {
+
+height: 100%;
+padding: 25px 25px 225px 25px; /*padding-bottom=desired padding + footer height*/
+color: #58554a;
+}
+
+div#main a{
+font-weight: bold;
+color: #2c5aa0;
+}
+
+div#main a:hover, div#main a:active{
+color: white;
+}
+
+#main img {margin-bottom: 1px;
+				padding-bottom: 1px;
+			}
+
+/*apply to acupuncture pages*/
+div#submenu{
+background: url(image/acu-icon.png) bottom right no-repeat;
+height: 267px;
+width: 430px;
+float: right;
+text-align: left;
+padding: 0 0 0 10px;
+margin: 0 0 20px 20px;
+font-family: 'Marcellus SC', serif;
+border-left: 5px dotted #9a5858;
+}
+div#submenu h1{
+font-size: 1.76em;
+color: #9a5858;
+}
+div#submenu ul {
+margin: 20px 230px 0 0;
+font-weight: bold;
+}
+div#submenu li{
+padding-bottom: 10px;
+}
+div#submenu li a{
+color: #bf7a7a;
+}
+div#submenu li a:hover, div#submenu li a:active {
+color: white;}
+
+/*apply to herb pages*/
+div#submenuherb{
+background: url(image/herb-icon.png) bottom right no-repeat;
+height: 267px;
+width: 430px;
+float: right;
+text-align: left;
+padding: 0 0 0 10px;
+margin: 0 0 20px 20px;
+font-family: 'Marcellus SC', serif;
+border-left: 5px dotted #65914d;
+}
+div#submenuherb h1{
+font-size: 1.76em;
+color: #65914d;
+}
+div#submenuherb ul {
+margin: 29px 230px 0 0;
+font-weight: bold;
+}
+div#submenuherb li {
+padding-bottom: 10px;
+}
+div#submenuherb li a{
+font-weight: bold;
+margin-bottom: 10px;
+color: #93bf7a;
+}
+div#submenuherb li a:hover, div#submenuherb li a:active {
+color: white;}
+
+/*apply to taijiquan pages*/
+div#submenutaiji{
+background: url(image/taiji-icon.png) bottom right no-repeat;
+height: 267px;
+width: 430px;
+float: right;
+text-align: left;
+padding: 0 0 0 10px;
+margin: 0 0 20px 20px;
+font-family: 'Marcellus SC', serif;
+border-left: 5px dotted #4c78a6;
+}
+div#submenutaiji h1{
+font-size: 1.88em;
+color: #4c78a6;
+text-indent:px;
+}
+div#submenutaiji ul {
+margin: 10px 230px 0 0;
+font-weight: bold;
+}
+div#submenutaiji li{
+line-height: 1.5em;
+}
+div#submenutaiji li a{
+font-weight: bold;
+color: #79a1c9;
+}
+div#submenutaiji li a:hover, div#submenutaiji li a:active {
+color: white;
+}
+
+/*apply to other interests pages*/
+div#submenuother{
+background: url(image/other-icon.png) bottom right no-repeat;
+height: 267px;
+width: 430px;
+float: right;
+text-align: left;
+padding: 0 0 0 10px;
+margin: 0 0 20px 20px;
+font-family: 'Marcellus SC', serif;
+border-left: 5px dotted #8b7bbf;
+}
+div#submenuother h1{
+font-size: 1.88em;
+color: #8b7bbf;
+text-indent:px;
+}
+div#submenuother h1 a {
+color: #8b7bbf;
+}
+div#submenuother h1 a:hover, div#submenuother li a:active {
+color: white;
+}
+div#submenuother ul {
+margin: 35px 230px 0 0;
+font-weight: bold;
+}
+div#submenuother li{
+padding-bottom: 10px;
+}
+div#submenuother li a{
+font-weight: bold;
+color: #5d48a0;
+}
+div#submenuother li a:hover, div#submenuother li a:active {
+color: white;
+}
+
+/*apply to index page*/
+div#selectors {
+display: block;
+position: relative;
+width: auto;
+height: 225px;
+margin: 0 0 0 90px;
+}
+div#selectors li {
+float: none;
+display: inline-block;
+padding: 20px;
+} 
+#welcome {
+        padding: 15px 30px 1px 30px;
+        /*background: white;*/
+        opacity: 0.5;
+        }
+        #welcome p {text-align: center;
+        font-family: 'Marcellus SC', serif;
+        font-size: 1.3em;
+        color: black;
+        }
+    
+#banner {
+			height: auto;
+			width: 750px;
+			position: relative;
+			top: 5px;
+			bottom: 20px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 15px;	
+			padding: 20px;
+			background-color: white;		
+			}  
+			#banner p{
+				color: black;
+			}  
+
+
+/*apply to About Us page*/
+#contact {
+float: right;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+width: 355px;
+height: 115px;
+background: white;
+padding: 15px 15px 20px 15px;
+margin: 20px 0 20px 20px;
+position: relative;
+}
+#contact li{
+font-size: 0.85em;
+}
+
+#contact li a{
+font-weight: normal;
+color: #58554a;
+}
+
+div#main a:hover, div#main a:active{
+color: #2c5aa0;
+}
+
+
+#image {
+    height: auto; 
+    width: 100%;
+    margin: 80px auto 0 auto;  
+    text-align: center;  
+}
+
+#images .box {
+border-radius:10px;
+position: relative;
+float: left;
+width:150px; 
+height:150px;
+margin: 5px;
+overflow:hidden;
+}
+
+#images .box img{
+position: absolute;
+width:150px; 
+height:150px;
+left:0;
+}
+
+#images .box .caption {  
+        background-color: white; 
+        opacity: 0.7;
+        border-radius:10px;
+        position: absolute;  
+        color: 58554a;  
+        z-index: 100;  
+        -webkit-transition: all 300ms ease-out;  
+        -moz-transition: all 300ms ease-out;  
+        -o-transition: all 300ms ease-out;  
+        -ms-transition: all 300ms ease-out;  
+        transition: all 300ms ease-out;   
+        width: 100px;  
+        height: 100px;
+        top: -150px;
+        padding: 25px;  
+        text-align: center;
+    } 
+    
+#images .box:hover .caption {  
+        -moz-transform: translateY(100%);  
+        -o-transform: translateY(100%);  
+        -webkit-transform: translateY(100%);  
+        transform: translateY(100%);  
+    }    
+
+
+
+
+
+#trial {margin: 20px auto 0 auto;
+		  border-radius: 10px;
+		  width: 80%;
+        padding: 15px 10px 5px 10px;
+        background: white;
+        opacity: 0.6;
+        }
+#trial p {text-align: center;
+        font-family: 'Marcellus SC', serif;
+        font-size: 1.5em;
+        color: black;
+        }
+
+/*apply to Taiji page*/    
+#taiji li {
+list-style: square;
+margin-left: 20px;
+margin-top: 15px;
+} 
+#taiji span{
+font-size: 0.9em;
+display: table-cell;
+padding-left: 40px;
+}
+#notice {
+		display: table-cell;	
+		border-radius: 10px;	
+		margin: 25px;        
+        padding: 15px 30px 1px 30px;
+        background: yellow;
+        opacity: 0.5;
+        }
+        #notice p {text-align: center;
+        font-size: 0.8em;
+        color: black;
+        }
+ 
+/*apply to Tuition page*/    
+#tuition li {
+font-size: 0.9em;
+margin-left: 20px;
+} 
+
+ 
+/*apply to Martial Arts page*/
+#martial{
+font-size: 85%;
+color: black;
+}     
+#martial li {
+display: table;
+} 
+#martial img{
+margin: 10px;
+display: table-cell;
+}  
+#martial span{
+display: table-cell;
+vertical-align: middle;
+}
+
+div#workshop{
+	
+text-align: center;
+}
+
+div#pomotion{
+
+}
+
+div#footer {
+	background: #070f63;
+	background: linear-gradient(top, #2c5aa0 , #070f63 );
+	background: -moz-linear-gradient(top, #2c5aa0 , #070f63 );
+	background: -webkit-linear-gradient(top, #2c5aa0 ,#070f63 ); 
+	color: white;
+	border-top: 5px solid #b5b2a6;
+	text-align: center;
+	font-size: 70%;
+	height: 220px;
+	width: 100%;
+	position: absolute; 
+	bottom: 0px;
+	padding-bottom: 0px;
+
+}
+
+div#footer li a, #footer p a {
+color: white;}
+
+div#footer li a:hover, div#footer li a:active {
+color: black;
+}
+
+div#footer-left {
+float: left;
+border-right: 2px dotted #b5b2a6;
+width: 350px;height:150px;
+padding: 10px;
+margin: 0 0 20px 15px;
+color: white;
+text-align: left;
+font-size: 120%;
+font-weight: bold;
+line-height:1.5em;
+}
+
+div#footer-left img{
+position: relative;
+top: 5px;
+right: 5px;
+}
+
+div#footer-middle {
+margin: 0 0 20px 400px;
+border-right: 2px dotted #b5b2a6;
+width: 350px;height: 150px;
+padding: 10px;
+color:white;
+text-align: left;
+}
+
+#sitemap /*so that it will be in two columns*/{
+height: 150px;
+-moz-column-count:2; /* Firefox */
+-webkit-column-count:2; /* Safari and Chrome */
+column-count:2;
+}
+
+#sublist /*so that it will indent*/ {
+    text-indent: 1.2em;
+    }
+
+div#footer-right{
+position: absolute;
+top: 0px;
+left: 785px;
+z-index: 1;
+width: 200px; height:155px;
+padding:10px;
+color: white;
+text-align: left;
+}
+
+#viewed{
+clear: left;
+font-size: 1.1em;
+padding-top: 10px;
+}
+
+#viewed a{
+font-weight: bold;
+color: #fff17e !important;
+}
+
+#viewed a:hover, a:active{
+font-weight: bold;
+color:#ffd200 !important;
+}
+
+div#footer-right li a{
+float: left;
+padding: 5px;}
+
+#main .fb-like-box {
+	display: block;
+	float: right;
+	left: 100px;
+	width: 300px;	
+	/*position: relative;*/
+	background-color: white;}
+
+#main .announcement {
+	/*display: block;
+	position: absolute;
+	width: 400px;
+	left: 450px;
+	margin-left: 20px;
+	float: right;*/)
+	}
+	
+#main .announcement h3{
+	text-align: center;
+}
+#main .announcement li{
+list-style: square;
+margin-left: 50px;
+font-size: 0.9em;
+}
